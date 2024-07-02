@@ -37,6 +37,7 @@ main(){
   final time = DateTime.now(); // burada const kullanılamaz, 'DateTime.now()' komutu çalışmadan önce (run time) time değerini belirleyemeyeceği için
   print(time);
 
-// LATE
-
 }
+
+// LATE
+late String lateVar; // late => bir *non-nullable* değişkenin değerinin daha sonra tanımlanabilmesini sağlar 
