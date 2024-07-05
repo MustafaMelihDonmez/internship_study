@@ -1,5 +1,3 @@
-import '../day3/functions.dart';
-
 main() {
   var noodles = MenuItem('veg noodles', 9.99);
   var manti = MenuItem.withTitle(
